@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 
 app = Flask(__name__)
-app.secret_key = 'your-secret-key-here'  # Ganti dengan random key
+app.secret_key = 'contoh'  # Ganti dengan random key
 DATABASE = 'database.db'
 
 def init_db():

@@ -2,7 +2,7 @@ import sqlite3
 import os
 
 def check_database():
-    db_file = 'auth_system.db'
+    db_file = 'database.db'
     
     print(f"📁 Database file exists: {os.path.exists(db_file)}")
     
